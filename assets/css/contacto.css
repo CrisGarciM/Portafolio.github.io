@@ -1,0 +1,110 @@
+.contacto{
+    display: flex;
+    flex-direction: column;
+    background: var(--color-fondo);
+    padding: 2rem;
+}
+
+.contacto__titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 2rem;
+}
+
+.contacto__container{
+    display: flex;
+}
+
+.contacto__descripcion{
+    display: flex;
+    flex-direction: column;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.contacto__direccion{
+    padding-top: .75rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.contacto__info{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contacto__telefono{
+    text-decoration: none;
+    color: var(--color-parrafos);
+}
+
+.contacto__email{
+    text-decoration: none;
+    color: var(--color-parrafos);
+}
+
+.contacto__address{
+    color: var(--color-Titulos);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contacto__contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contacto__input{
+    width: 100%;
+    padding: 10px 25px;
+    margin: 0 0 1rem;
+}
+
+.contacto__btn-enviar{
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.contacto__btn-enviar:hover{
+    color: var(--color-textos);
+    background: var(--color-btn);
+    border: var(--color-btn);
+    padding: .75rem;
+}
+
+@media (max-width: 768px) {
+    .contacto{
+        width: 100%;
+    }
+    
+    .contacto__container{
+        flex-direction: column;
+    }
+
+    .contacto__descripcion{
+        margin-bottom: 1rem;
+    }
+
+    .contacto__direccion{
+        padding: 0;
+    }
+    .contacto__input{
+        width: 60%;
+    }
+}

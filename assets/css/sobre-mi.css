@@ -1,0 +1,26 @@
+.sobre{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background: var(--color-fondo);
+}
+
+.sobre__titulo{
+    color: var(--color-Titulos);
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 0.75rem;
+}
+
+.sobre__descripcion{
+    color: var(--color-parrafos);
+    width: 50%;
+}
+
+
+
+@media (max-width: 768px) {
+    .sobre{
+        width: 100%;
+    }
+}

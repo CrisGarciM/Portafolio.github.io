@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.header_titulo{
+    color: var(--color-Titulos);
+}
+
+.header__lista{
+    display: flex;
+}
+
+.head__items{
+    margin: 1rem;
+}
+
+.head__link{
+    text-decoration: none;
+    color: var(--color-Titulos);
+}
+
+.head__link:hover{
+    color: var(--color-parrafos);
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .header{
+        display: none;
+    }
+}
